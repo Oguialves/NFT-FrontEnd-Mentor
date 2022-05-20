@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+p{
+    color: hsl(215, 32%, 27%);
+}
+
+section{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(216, 50%, 16%);
+    width: 480px;
+    height: 750px;
+    margin: 100px auto;
+    border-radius: 20px;
+
+}
+
+.img{
+    padding: 40px 40px 20px 40px;
+}
+
+.img img{
+    border-radius: 20px;
+}
+
+.music{
+    color: #fff;    
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 40px;
+}
+.music h2{
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+.music h2:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.music p{
+    font-size: 1.5em;
+}
+
+.valores{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px 20px 40px;
+    font-size: 18px;
+}
+.moeda{
+    color: hsl(178, 100%, 50%);
+}
+
+.artista{    
+    display: flex;
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+    border-top: 0.2px solid #fff;
+}
+.artista p{
+    padding-left: 30px;
+}
+.artista strong{
+    color: #fff;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.artista strong:hover{
+    color: hsl(178, 100%, 50%);
+}
+.attribution{
+    font-size: .8em;
+    padding-bottom: 10px;
+}
+.attribution a{
+    text-decoration: none;
+    cursor: pointer;
+}
