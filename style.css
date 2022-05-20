@@ -78,6 +78,7 @@ section{
     color: hsl(178, 100%, 50%);
 }
 .attribution{
+    color: #fff;
     font-size: .8em;
     padding-bottom: 10px;
 }
